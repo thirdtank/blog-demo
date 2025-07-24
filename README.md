@@ -28,7 +28,7 @@ This is the app built in the Brut 15ish-Minute Blog Demo:
 6. Run setup:
 
    ```
-   dx/setup
+   bin/setup
    ```
 7. Start the app:
 
