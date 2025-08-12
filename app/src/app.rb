@@ -1,13 +1,13 @@
 class App < Brut::Framework::App
-  def id           = "dei"
-  def organization = "dei"
+  def id           = "blog"
+  def organization = "thirdtank"
 
   def initialize
     # Add additional initialization to this initializers.
     # Be sure to use the lazy/block form of store because when this code
     # runs, the app may not have access to networked resources.
     Brut.container.override("session_class",AppSession)
-    Brut.container.override("external_id_prefix","de")
+    Brut.container.override("external_id_prefix","bl")
     
     Brut.container.store(
       "trigger_exception_key",

@@ -30,7 +30,7 @@ class DefaultLayout < Brut::FrontEnd::Layout
         script(defer: true, src: asset_path("/js/app.js"))
 
         title do
-          "dei"
+          "An Awesome Blog!"
         end
 
         # Brut::FrontEnd::Components::PageIdentifier, which produces
